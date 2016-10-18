@@ -1,8 +1,8 @@
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
+    "serverURL": "https://serene-waters-52115.herokuapp.com/parse/",
+    "appId": "myAppId",
+    "masterKey": "myMasterKey",
     "appName": "",
     "iconName": ""
   }],
