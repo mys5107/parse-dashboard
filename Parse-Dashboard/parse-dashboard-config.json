@@ -1,6 +1,6 @@
 
 HOST: "0.0.0.0"
-PORT: "4040"
+PORT: "80"
 MOUNT_PATH: "/"
 PARSE_DASHBOARD_TRUST_PROXY: undefined // Or "1" to trust connection info from a proxy's X-Forwarded-* headers
 PARSE_DASHBOARD_SERVER_URL: "https://serene-waters-52115.herokuapp.com/parse"
