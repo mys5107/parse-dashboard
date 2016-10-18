@@ -1,14 +1,11 @@
 
-HOST: "0.0.0.0"
-PORT: "80"
-MOUNT_PATH: "/"
-PARSE_DASHBOARD_TRUST_PROXY: undefined // Or "1" to trust connection info from a proxy's X-Forwarded-* headers
-PARSE_DASHBOARD_SERVER_URL: "https://serene-waters-52115.herokuapp.com/parse"
-PARSE_DASHBOARD_MASTER_KEY: "myMasterKey"
-PARSE_DASHBOARD_APP_ID: "myAppId"
-PARSE_DASHBOARD_APP_NAME: "MyApp"
-PARSE_DASHBOARD_USER_ID: "user1"
-PARSE_DASHBOARD_USER_PASSWORD: "pass"
-PARSE_DASHBOARD_SSL_KEY: "sslKey"
-PARSE_DASHBOARD_SSL_CERT: "sslCert"
-PARSE_DASHBOARD_CONFIG: undefined // Only for reference, it must not exist
+{
+  "apps": [
+    {
+      "serverURL": "https://serene-waters-52115.herokuapp.com/parse",
+      "appId": "myAppId",
+      "masterKey": "myMasterKey",
+      "appName": "MyApp"
+    }
+  ]
+}
