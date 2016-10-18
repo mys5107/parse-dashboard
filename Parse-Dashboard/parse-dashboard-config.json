@@ -7,11 +7,5 @@
       "masterKey": "myMasterKey",
       "appName": "MyApp"
     }
-  ],
-  "users": [
-     {
-       "user":"user1",
-       "pass":"pass1",
-       "apps": [{"appId": "myAppId"}]
-     } ]
+  ]
 }
